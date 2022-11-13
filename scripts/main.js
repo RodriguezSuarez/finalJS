@@ -15,6 +15,7 @@ let botonFinalizar = document.getElementById("finalizar");
 const DateTime = luxon.DateTime;
 const ahora = DateTime.now();
 
+//renderizar productos objetos del localStorage al carrito
 function cargarLocalStorage(){
   Swal.fire({
     imageUrl: `./images/logoN.png`,

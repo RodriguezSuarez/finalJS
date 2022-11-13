@@ -1,0 +1,33 @@
+{
+  "name": "finaljs",
+  "version": "1.0.0",
+  "description": "finalJSCoderhouse",
+  "main": "./scripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriguezSuarez/finalJS.git"
+  },
+  "keywords": [
+    "entrega",
+    "final",
+    "JS",
+    "coderhouse"
+  ],
+  "author": "DMRS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodriguezSuarez/finalJS/issues"
+  },
+  "homepage": "https://github.com/RodriguezSuarez/finalJS#readme",
+  "dependencies": {
+    "animate.css": "4.1.1",
+    "bootstrap": "5.2.2",
+    "fontawesome": "5.6.3",
+    "luxon": "3.1.0",
+    "sweetalert2": "^11.6.8",
+    "toastify": "2.0.1"
+  }
+}
