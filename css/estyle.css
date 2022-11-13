@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rubik&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+head {
+  display: none;
+}
+:root {
+  /* --color1: #ffcdd4;
+  --color2: #fdb4bf;
+  --color3: #f99aaa;
+  --color4: #f1889b;
+  --color5: #e57d90; */
+  --color1: #e0c2c0;
+  --color2: #dbb0a0;
+  --color3: #eab586;
+  --color4: #b2481b;
+  --color5: #57394a;
+}
+
+h1,
+h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 1.5rem;
+}
+
+body {
+  font-family: 'Acme', sans-serif;
+  font-size: 1.5rem;
+  color: var(--color5);
+  background-color: var(--color1);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezado {
+  background: var(--color2);
+  width: 30vw;
+  margin: auto;
+  margin-top: 3vh;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatey(359deg);
+  }
+}
+.logo {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo1 {
+  width: 15vw;
+  margin: 15px;
+  border-radius: 100%;
+  animation: rotation 3s infinite linear;
+}
+
+.card {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  width: 17rem;
+  padding: 1.5rem;
+  margin: 1.5rem 3rem;
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--color2);
+  color: var(--color4);
+  text-shadow: 1px 1px 1px var(--color5);
+  box-shadow: 1.5px 1.5px 10px var(--color5);
+}
+
+.card-img-top {
+  height: 17rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px var(--color5);
+}
+
+.btn.btn-ligth,
+.btn.btn-ligth i {
+  background-color: var(--color5);
+  border: none;
+  box-shadow: 1px 1px 3px var(--color4);
+  color: var(--color3);
+}
+
+.btn.btn-ligth:hover,
+.btn.btn-ligth i:hover {
+  background-color: var(--color4);
+  color: var(--color5);
+  box-shadow: 2px 2px 1px var(--color5);
+}
+
+.carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  font-size: 1.5rem;
+  width: 75vw;
+  padding: 1.3rem;
+  border-radius: 1px;
+  background-color: var(--color2);
+  text-shadow: 1px 1px 1px var(--color4);
+  box-shadow: 1.5px 1.5px 10px var(--color5);
+  text-align: center;
+  border-bottom: 1px solid var(--color5);
+}
+
+.fa-trash-can {
+  color: var(--color4);
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 1px var(--color5);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redes i {
+  color: var(--color4);
+  font-size: 2.5rem;
+  padding: 1rem;
+  text-shadow: 2px 2px 1px var(--color5);
+}

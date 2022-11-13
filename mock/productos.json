@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "nombre": "mini\nbox",
+    "precio": 2500,
+    "imagen": "minibox",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "mini\nblack",
+    "precio": 3500,
+    "imagen": "miniblack",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "black\nbox",
+    "precio": 5500,
+    "imagen": "blackbox",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "classic\nbox",
+    "precio": 4300,
+    "imagen": "classicbox",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "bubble\nballoon",
+    "precio": 1200,
+    "imagen": "bubbleballoon",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "bouquet\nroses",
+    "precio": 5900,
+    "imagen": "bouquetroses",
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "bouquet\nastromelias",
+    "precio": 4000,
+    "imagen": "bouquetastromelias",
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "candy\nbox",
+    "precio": 4500,
+    "imagen": "candybox",
+    "cantidad": 1
+  },
+  {
+    "id": 9,
+    "nombre": "drynk\nbox",
+    "precio": 5900,
+    "imagen": "drynkbox1",
+    "cantidad": 1
+  }
+]

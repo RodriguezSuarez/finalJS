@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- link cdn Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- link cdn Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    referrerpolicy="no-referrer" />
+  <!-- link cdn bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!-- link cdn Toastify -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+  <title>Home A & L</title>
+  <link rel="icon" href="./images/logoN.png" type="logoA&L/jpg" />
+  <!-- link archivo .css -->
+  <link rel="stylesheet" type="text/css" href="./css/estyle.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="encabezado">
+      <div class="logo">
+      <img class="logo1" src="./images/logoB.png" alt="logo A & L" />
+    </div>
+      <div class="titulo">
+        <h1 class="titulo1">A & L</h1>
+      </div>
+    </div>
+  </header>
+  <main class="container-fluid items-center">
+    <div id="cotizacionDolar" class="text-center">
+      <h2>Nuestros Productos</h2>
+    </div>
+    <section id="cartas" class="row justify-content-evenly">
+        <!-- las cards productos -->
+      </section>
+      <section class="carrito">
+        <h2>Tu Compra</h2>
+        <!-- el carrito tabla -->
+        <table id="tabla" class="table table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Unit</th>
+              <th>Quantity</th>
+              <th>Trash</th>
+            </tr>
+          </thead>
+          <tbody id="tBody">
+            <!-- carga tabla productos carrito -->
+          </tbody>
+        </table>
+        <h3 id="totalPagar"></h3>
+        <button id="btnFinalCompra" class="btn btn-ligth">Finalizar compra</button>
+      </section>
+  </main>
+  <footer class="footer container-fluid">
+    <div class="redes">
+      <a href="mailto:arygonlp84@gmail.com?subject=ayl.tiendaonline_consulta%20&body=Hola%2C%20deseo%20saber%20m%C3%A1s%20de%20sus%20servicios..."
+        title="correo electronico" target="_blank" rel="noopener noreferrer"><i
+          class="fa-solid fa-envelopes-bulk"></i></a>
+      <a href="https://www.facebook.com/ayltiendaonline/" title="sitio facebook" target="_blank"
+        rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=+542216084571&text=Hola,%20quiero%20mas%20info,%20por%20favor,%20estoy%20buscando%20"
+        id="whatsapp" title="sitio whatsapp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"
+          alt="icono whatsapp"></i></a>
+    </div>
+    <div class="derechos">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+        <img alt="Creative Commons License" style="border-width: 0"
+          src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+        Licencia Internacional Creative Commons Attribution 4.0
+      </a>
+    </div>
+  </footer>
+  <!-- script cdn popper y bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <!-- script cdn Sweetalert2 -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- script cdn Toastify -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!-- Luxon -->
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+  <!-- script archivos .js -->
+  <!-- <script src="./scripts/productos.js"></script> -->
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
